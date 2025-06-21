@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/dashboard/:match(.*)",
-      "destination": "https://netlifycon-hr-334z.vercel.app:match"
+      "destination": "https://netlifycon-hr-334z.vercel.app/:match"
     }
   ]
 }
