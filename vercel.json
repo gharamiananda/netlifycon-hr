@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/dashboard/:match(.*)",
-      "destination": "https://netlifycon-hr-334z.vercel.app/:match"
+      "source": "/dashboard/:match*",
+      "destination": "https://dashboard-app.vercel.app/dashboard/:match*"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://main-app.vercel.app/:match*"
     }
   ]
 }
