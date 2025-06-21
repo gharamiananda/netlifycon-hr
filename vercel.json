@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/dashboard/(.*)",
-      "destination": "/dashboard/index.html"
+      "source": "/dashboard/:match(.*)",
+      "destination": "https://netlifycon-hr-334z.vercel.app:match"
     }
   ]
 }
