@@ -1,10 +1,11 @@
-function App() {
+import Router from "./router";
 
+function App() {
   return (
     <>
-     <h1>Homepage </h1>
+      <Router />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
