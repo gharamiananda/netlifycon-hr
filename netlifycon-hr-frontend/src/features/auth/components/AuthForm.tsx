@@ -123,7 +123,11 @@ export function AuthForm() {
                 )}
               />
             </div>
-            <Link aria-disabled className="text-right" to="/">
+            <Link
+              aria-disabled
+              className="text-right dark:text-[#212946]"
+              to="/"
+            >
               Forgot Password?
             </Link>
 
